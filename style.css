@@ -1,6 +1,6 @@
 /* display background color black on navbar scroll */
 .navbarScroll.navbarDark {
-    background-color: green;
+    background-color: red;
 }
 
 /* hero background image */
@@ -23,7 +23,7 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: white;
+    color: black;
 }
 
 /* spacing on all sections */
@@ -53,10 +53,10 @@
     text-align: center;
 }
 .card:hover .servicesIcon {
-    color: #008000;
+    color: red;
 }
 .servicesText:hover {
-    border: 1px solid #008000;
+    border: 1px solid red;
 }
 
 /* social media icons styling */
@@ -65,7 +65,7 @@
     cursor: pointer;
 }
 .fa-facebook:hover,.fa-instagram:hover,.fa-twitter:hover,.fa-linkedin:hover, .fa-twitch:hover {
-    color: #008000;
+    color: red;
 }
 .fab {
     color: #000000;
