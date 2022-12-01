@@ -1,6 +1,6 @@
 /* display background color black on navbar scroll */
 .navbarScroll.navbarDark {
-    background-color: red;
+    background-color: green;
 }
 
 /* hero background image */
@@ -53,10 +53,10 @@
     text-align: center;
 }
 .card:hover .servicesIcon {
-    color: red;
+    color: green;
 }
 .servicesText:hover {
-    border: 1px solid red;
+    border: 1px solid green;
 }
 
 /* social media icons styling */
@@ -65,7 +65,7 @@
     cursor: pointer;
 }
 .fa-facebook:hover,.fa-instagram:hover,.fa-twitter:hover,.fa-linkedin:hover, .fa-twitch:hover {
-    color: red;
+    color: green;
 }
 .fab {
     color: #000000;
