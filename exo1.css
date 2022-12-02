@@ -6,6 +6,11 @@
   box-sizing: border-box;
 }
 
+/* display background color black on navbar scroll */
+.navbarScroll.navbarDark {
+  background-color: red;
+}
+
 form {
   max-width: 300px;
   margin: 10px auto;
@@ -73,7 +78,7 @@ label.light {
 }
 
 .number {
-  background-color: red;
+  background-color: #5fcf80;
   color: #fff;
   height: 30px;
   width: 30px;
