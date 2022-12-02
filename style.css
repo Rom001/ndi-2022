@@ -75,3 +75,6 @@
     background-color: #808080;
     text-align: center;
 }
+.carde-body{
+    max-width: 40vh;
+}
