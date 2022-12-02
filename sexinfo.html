@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="C:\Users\ibrah\Desktop\NDF\projet.css"> 
+    <title>Brocoli-team_sexinfo</title>
+</head>
+<body>
+    <section class="page1">
+        <header>
+            <a href="#"class="home">
+                home
+            </a>
+            <ul>
+                <li><a href="#page_2">Rubrique</a></li>
+                <li><a href="#page_3">questionnaire</a></li>
+                <li ><a href="#contact">contacts</a></li>
+            </ul>
+        </header>
+        <script type="text/javascript">
+            window.addEventListener("scroll",function(){
+                var header =document.querySelector("header");
+                header.classList.toggle("sticky",window.scrollY >0);
+            })
+        </script>
+
+        
+    </section>
+    <section class="page2" id="page_2">
+        <h1 class="titre_rubriques">Rubriques </h1>
+        <section class="rubrique">
+            <div class="rubrique_1"><a href="">Questions frequentes<br>SIDA</a></div>
+            <div class="rubrique_2"><a href="">VIH/sida <br>la lutte continue</a></div>
+            <div class="rubrique_3"><a href="">Tout savoir sur<br>lacirrhose</a></div>
+            <div class="bouton">
+                <a href="#"><img src="up.png" alt=""></a>
+            </div>
+        </section>
+
+    </section>
+    <section class="page3" id="page_3">
+        <br><br><br><br><br><br>
+        <h1>Questionnaire</h1>
+        <p>1.	Les médicaments sont le meilleur moyen de prévention aux MST</p>
+        <p>2.	Se protéger est le meilleur moyen de prévention aux MST </p>
+        <p>3.	Le SIDA n'est pas une MST </p>
+        <p>4.	Le SIDA est mortel </p>
+        <p>5.	Plus d’1 millions de personnes a été reconnu malade du SIDA en 2021</p>
+        <p>6.	Il est possible de guérir du SIDA</p>
+        <p>7.	Les MST touchent uniquement les femmes</p>
+        <p>8.	Les MST peuvent toucher les hommes et les femmes</p>
+        <p>9.	Les MST ne peuvent pas toucher les enfants</p>
+        <p>10.	Le préservatif permet de se protéger contre les MST</p>
+        
+        <br><br><br> <br><br>
+        <h1>Réponses</h1>
+        <p>1.	FAUX</p>
+        <p>2.	VRAI</p>
+        <p>3.	FAUX</p>
+        <p>4.	VRAI</p>
+        <p>5.	VRAI</p>
+        <p>6.	FAUX</p>
+        <p>7.	FAUX</p>
+        <p>8.	VRAI</p>
+        <p>9.	FAUX</p>
+        <p>10.	VRAI</p>
+    </section>
+    <br><br> <br><br>
+    <section class="contct" id="contact">
+        <div class="container mt-3 contactContent">
+            <h1 class="text-center">Contact Us</h1>
+
+            <div class="row mt-4">
+                <div class="col-lg-6">
+                    <!-- to edit google map goto https://www.embed-map.com type your location, generate html code and copy the html  -->
+                    <div style="max-width:100%;overflow:hidden;color:red;width:500px;height:500px;">
+                        <div id="embedmap-canvas" style="height:100%; width:100%;max-width:100%;">
+                            <iframe style="height:100%;width:100%;border:0;" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=Nanterre+Université&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8">
+                            </iframe>
+                        </div>
+                        <a class="googlemaps-html" href="https://www.embed-map.com" id="get-data-forembedmap">https://www.embed-map.com</a>
+                        <style>#embedmap-canvas img{max-width:none!important;background:none!important;font-size: inherit;font-weight:inherit;}
+                        </style>
+                    </div>
+                </div>
+
+                <div class="col-lg-6">
+                    <!-- form fields -->
+                    <form>
+                        <input type="text" class="form-control form-control-lg" placeholder="Name">
+                        <input type="email" class="form-control mt-3" placeholder="Email">
+                        <input type="text" class="form-control mt-3" placeholder="Subject">
+                        <div class="mb-3 mt-3">
+                            <textarea class="form-control" rows="5" id="comment" name="text" placeholder="Project Details"></textarea>
+                        </div>
+                    </form>
+                    <button type="button" class="btn btn-success mt-3">Contact Us</button>
+                    
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    
+   
+    
+</body>
+</html>
